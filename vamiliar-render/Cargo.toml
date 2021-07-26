@@ -1,0 +1,16 @@
+[package]
+name = "vamiliar-render"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+# Error handling
+thiserror = "1.0.26"
+
+# Vulkan graphics API
+vulkano = "0.24.0"
+vulkano-win = "0.24.0"
+vulkano-shaders = "0.24.0"
+
+# Window API
+winit = "0.25.0"

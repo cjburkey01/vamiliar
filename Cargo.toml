@@ -1,0 +1,8 @@
+[package]
+name = "vamiliar"
+description = "Yet another game engine attempt"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+vamiliar-render = { path = "./vamiliar-render" }
